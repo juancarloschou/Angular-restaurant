@@ -1,0 +1,21 @@
+/* When the input is not focused */
+md-input-container {
+    color: green
+}
+
+md-input-container label {
+  color: red;
+}
+  
+/* When the input is focused */
+md-input-container.md-input-focused label {
+  color: blue;
+}
+
+// ::ng-deep .mat-form-field-placeholder{
+//     color:red;
+// }
+
+// ::ng-deep .mat-focused .mat-form-field-placeholder{
+//     color:red;
+// }
